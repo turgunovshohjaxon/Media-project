@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@300&family=Lato:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    height: 89px;
+    align-items: center;
+    background-color: #526E3E;
+}
+ul {
+    display: flex;
+    height: 89px;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+    list-style: none;
+}
+
+header{
+    background: url(Website-Main-Banner-8f49d24d33364fd40a0f9e81a18f1b51\ 1.jpg) no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column
+    
+}
+.text1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 200px;
+    color: white;
+    margin:  auto;
+}
+.text2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 57px;
+    color: white;
+    margin: 0 auto 10vh; 
+}
+.text3 {
+    color: #526E3E;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 98px;
+    margin-bottom: 45px;
+}
+.papa {
+    display: flex;
+    justify-content: space-around;
+    color: #526E3E;
+    width: 100%;
+}
+
+.text4 {
+    font-size: 16px;
+    font-family:'Roboto'sans-serif;
+    font-weight: bold;
+}
+.text5 {
+    font-size: 16px;
+    font-family:'Roboto'sans-serif;
+    font-weight: bold;
+} 
+.text6 {
+    font-size: 16px;
+    font-family:'Roboto'sans-serif;
+    font-weight: bold;
+}
+.text7 {
+    font-size: 16px;
+    font-family:'Roboto'sans-serif;
+    font-weight: bold;
+}
+.card-footer {
+    background: #FDFBED;
+    height: 36px;
+width: 335px;
+margin-top: 20px;
+}
+
+.d-flex-spasearound{
+    text-align: center;
+}
+.btn1 {
+    color: #526E3E;
+    border-color: #526E3E;
+    height: 32px;
+    width: 180px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+    cursor: pointer;
+    
+}
+.btn1:hover {
+    height: 40px;
+    width: 200px;
+    font-size: 15px;    
+}
+.btn-center{
+    display: flex;
+   justify-content: center;
+}
+@media all and (max-width: 500px) {
+    .text1 {
+        font-size: 150px;
+    }
+    .papa {
+        display: block;
+    }
+    .card-footer {
+        margin: auto;
+    }
+}
+@media all and (max-width: 500px) {
+    .text1 {
+        font-size: 150px;
+    }
+    .papa {
+        display: block;
+    }
+    .card-footer {
+        margin: auto;
+    }
+}
+@media all and (max-width: 768px) {
+    .text1 {
+        font-size: 150px;
+    }
+    .card-footer {
+        margin: auto;
+    }
+    .papa {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media all and (max-width: 1024px) {
+    .text1 {
+        font-size: 150px;
+    }
+    .card-footer {
+        margin: auto;
+    }
+    .papa {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
